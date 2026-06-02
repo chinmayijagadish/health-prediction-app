@@ -15,5 +15,20 @@ The application stores patient blood test records and generates AI-powered healt
 
 ## Current Progress
 
+## Current Progress
+
 ### Phase 1
-- Project Setup
+- Project Setup Completed
+- SQLite Database Created
+- Patient Schema Created
+
+### Database Fields
+
+- ID
+- Name
+- Date of Birth
+- Email
+- Glucose
+- Haemoglobin
+- Cholesterol
+- Remarks
