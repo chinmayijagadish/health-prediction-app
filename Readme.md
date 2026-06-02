@@ -32,3 +32,10 @@ The application stores patient blood test records and generates AI-powered healt
 - Haemoglobin
 - Cholesterol
 - Remarks
+
+### Phase 2
+
+- Flask Application Created
+- Home Route Added
+- HTML Template Added
+- Application Running Successfully
