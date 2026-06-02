@@ -1,6 +1,7 @@
 import sqlite3
 
 def create_database():
+
     conn = sqlite3.connect("database/patients.db")
 
     cursor = conn.cursor()
@@ -20,6 +21,45 @@ def create_database():
 
     conn.commit()
     conn.close()
+
+
+def add_patient(
+        name,
+        dob,
+        email,
+        glucose,
+        haemoglobin,
+        cholesterol):
+
+    conn = sqlite3.connect("database/patients.db")
+
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    INSERT INTO patients
+    (
+        name,
+        dob,
+        email,
+        glucose,
+        haemoglobin,
+        cholesterol
+    )
+    VALUES
+    (?, ?, ?, ?, ?, ?)
+    """,
+    (
+        name,
+        dob,
+        email,
+        glucose,
+        haemoglobin,
+        cholesterol
+    ))
+
+    conn.commit()
+    conn.close()
+
 
 if __name__ == "__main__":
     create_database()

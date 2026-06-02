@@ -39,3 +39,10 @@ The application stores patient blood test records and generates AI-powered healt
 - Home Route Added
 - HTML Template Added
 - Application Running Successfully
+
+### Phase 3
+
+- Add Patient Form Created
+- Flask Form Handling Implemented
+- SQLite Insert Function Added
+- Patient Records Successfully Stored
