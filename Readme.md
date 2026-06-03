@@ -11,6 +11,7 @@ The application stores patient blood test records and generates AI-powered healt
 - Python
 - Flask
 - SQLite
+- Bootstrap
 - Gemini API
 
 ## Current Progress
@@ -46,3 +47,14 @@ The application stores patient blood test records and generates AI-powered healt
 - Flask Form Handling Implemented
 - SQLite Insert Function Added
 - Patient Records Successfully Stored
+
+## Features Completed
+
+### Patient Registration
+
+- Add Patient Form
+- SQLite Database Integration
+- Data Persistence
+- Email Validation
+- Date of Birth Validation
+- Numeric Blood Value Validation
