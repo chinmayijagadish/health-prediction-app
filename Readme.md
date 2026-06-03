@@ -42,12 +42,32 @@ A Flask-based healthcare application for managing patient records and analyzing 
 * Professional Landing Page
 * Patient Records Dashboard
 
-## CRUD Status
+## CRUD Progress
 
-* Create ✅
-* Read ✅
-* Update ⏳
-* Delete ⏳
+### Create Patient
+
+* Add new patient records
+* Store blood test values
+* Generate AI health remarks
+
+### Read Patient
+
+* View all patient records
+* Display AI-generated health assessments
+
+### Update Patient
+
+* Edit patient information
+* Update blood test values
+* Regenerate AI health remarks automatically
+* Email validation
+* Date of birth validation
+* Numeric value validation
+
+### Delete Patient
+
+* Pending
+
 
 ## AI Prediction Examples
 
