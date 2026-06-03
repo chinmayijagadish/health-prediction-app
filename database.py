@@ -147,6 +147,22 @@ def update_patient(
 
     conn.commit()
     conn.close()
+    
+def delete_patient(patient_id):
+
+    conn = sqlite3.connect(
+        "database/patients.db"
+    )
+
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "DELETE FROM patients WHERE id=?",
+        (patient_id,)
+    )
+
+    conn.commit()
+    conn.close()
 
 
 if __name__ == "__main__":

@@ -1,29 +1,21 @@
-# 🏥 Health Prediction Application
+# Health Prediction Application
 
-A Flask-based healthcare application for managing patient records and analyzing blood test information.
+## Overview
 
----
-
-## 🚀 Technologies Used
-
-* Python
-* Flask
-* SQLite
-* HTML5
-* Bootstrap 5
+A Flask-based Health Prediction Application that allows users to manage patient records, analyze blood test results, and generate AI-powered health risk assessments using the Google Gemini API.
 
 ---
 
-## Features Implemented
+## Features
 
 ### Patient Management
 
 * Add Patient Records
 * View Patient Records
-* SQLite Database Storage
-* Persistent Data Management
+* Edit Patient Records
+* Delete Patient Records
 
-### Validation
+### Data Validation
 
 * Email Validation
 * Future Date Restriction for Date of Birth
@@ -31,48 +23,131 @@ A Flask-based healthcare application for managing patient records and analyzing 
 
 ### AI Integration
 
-* Gemini API Integration
+* Google Gemini API Integration
 * Automatic Health Risk Prediction
-* AI Generated Remarks Stored in Database
+* AI-Generated Health Remarks
+
+### Database
+
+* SQLite Database
+* Persistent Storage of Patient Records
 
 ### User Interface
 
-* Bootstrap 5 Healthcare Theme
-* Responsive Design
-* Professional Landing Page
-* Patient Records Dashboard
+* Bootstrap 5 Responsive Design
+* Healthcare-Themed Dashboard
+* Edit and Delete Actions with Icons
 
-## CRUD Progress
+---
 
-### Create Patient
+## Application Screenshots
 
-* Add new patient records
-* Store blood test values
-* Generate AI health remarks
+### Home Page
 
-### Read Patient
+### Add Patient Form
 
-* View all patient records
-* Display AI-generated health assessments
 
-### Update Patient
+### AI Prediction Result
 
-* Edit patient information
-* Update blood test values
-* Regenerate AI health remarks automatically
-* Email validation
-* Date of birth validation
-* Numeric value validation
 
-### Delete Patient
+### Patient Records
 
-* Pending
 
+### Edit Patient
+
+
+
+## Technologies Used
+
+* Python
+* Flask
+* SQLite
+* Bootstrap 5
+* Google Gemini API
+* HTML
+* CSS
+
+---
+
+## CRUD Operations
+
+| Operation | Status |
+| --------- | ------ |
+| Create    | ✅      |
+| Read      | ✅      |
+| Update    | ✅      |
+| Delete    | ✅      |
+
+---
 
 ## AI Prediction Examples
 
-* Normal
-* High Diabetes Risk
-* Possible Anaemia
-* Elevated Cholesterol
-* Multiple Risk Factors Detected
+| Input Condition          | AI Remark                      |
+| ------------------------ | ------------------------------ |
+| Normal Values            | Normal                         |
+| High Glucose             | High Diabetes Risk             |
+| Low Haemoglobin          | Possible Anaemia               |
+| High Cholesterol         | Elevated Cholesterol           |
+| Multiple Abnormal Values | Multiple Risk Factors Detected |
+
+---
+
+## Project Structure
+
+HealthPredictionApp/
+
+├── app.py
+
+├── database.py
+
+├── gemini_service.py
+
+├── requirements.txt
+
+├── templates/
+
+│ ├── index.html
+
+│ ├── add_patient.html
+
+│ ├── edit_patient.html
+
+│ └── patients.html
+
+├── database/
+
+│ └── patients.db
+
+└── .env
+
+---
+
+## How To Run
+
+1. Clone the repository
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Create a .env file
+
+GEMINI_API_KEY=YOUR_API_KEY
+
+4. Run the application
+
+python app.py
+
+5. Open browser
+
+http://127.0.0.1:5000
+
+---
+
+## Future Improvements
+
+* User Authentication
+* Patient Login Portal
+* PDF Health Reports
+* Search and Filter Patients
+* Dashboard Analytics

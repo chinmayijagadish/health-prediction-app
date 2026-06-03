@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request
+from flask import redirect, url_for
 from database import (
     add_patient,
     get_all_patients,
     get_patient_by_id,
-    update_patient
+    update_patient,
+    delete_patient
 )
 
 from gemini_service import generate_health_remark
@@ -290,6 +292,16 @@ Back To Patients
         patient=patient
     )
 
+@app.route("/delete/<int:patient_id>")
+def delete(patient_id):
+
+    delete_patient(
+        patient_id
+    )
+
+    return redirect(
+        url_for("patients")
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)

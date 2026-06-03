@@ -61,18 +61,24 @@
                     <td>{{ patient[5] }}</td>
                     <td>{{ patient[6] }}</td>
                     <td>{{ patient[7] }}</td>
+                    <td class="text-nowrap">
 
-                    <td>
+                   <a href="/edit/{{ patient[0] }}"
+                   class="btn btn-warning btn-sm me-1">
 
-                        <a href="/edit/{{ patient[0] }}"
-                           class="btn btn-warning btn-sm">
+                    <i class="bi bi-pencil-square"></i>
 
-                            <i class="bi bi-pencil-square"></i>
-                            Edit
+                    </a>
 
-                        </a>
+                    <a href="/delete/{{ patient[0] }}"
+                    class="btn btn-danger btn-sm"
+                    onclick="return confirm('Are you sure you want to delete this patient?')">
 
-                    </td>
+                    <i class="bi bi-trash-fill"></i>
+
+                    </a>
+
+                </td>
 
                 </tr>
 
