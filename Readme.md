@@ -40,21 +40,45 @@ A Flask-based Health Prediction Application that allows users to manage patient 
 
 ---
 
-## Application Screenshots
+## 📸 Application Screenshots
 
-### Home Page
+### 🏠 Home Page
 
-### Add Patient Form
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/331c91b0-827e-488c-8f6c-d4fcb0997ccd" width="800">
+</p>
 
+---
 
-### AI Prediction Result
+### ➕ Add Patient Form
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bfbed449-3a94-42e3-a872-10df40e4027b" width="800">
+</p>
 
-### Patient Records
+---
 
+### 🤖 AI Prediction Result
 
-### Edit Patient
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/923d4c95-4478-43d1-8f05-99431eaecf47" width="800">
+</p>
 
+---
+
+### 📋 Patient Records
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/70802f4e-b4f9-4a8e-903c-e734148e2e00" width="800">
+</p>
+
+---
+
+### ✏️ Edit Patient
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f47164d5-38bc-407f-9b9b-ba6e0859cbe6" width="800">
+</p>
 
 
 ## Technologies Used
