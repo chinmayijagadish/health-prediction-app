@@ -29,9 +29,12 @@ def add_patient(
         email,
         glucose,
         haemoglobin,
-        cholesterol):
+        cholesterol,
+        remarks):
 
-    conn = sqlite3.connect("database/patients.db")
+    conn = sqlite3.connect(
+        "database/patients.db"
+    )
 
     cursor = conn.cursor()
 
@@ -43,10 +46,11 @@ def add_patient(
         email,
         glucose,
         haemoglobin,
-        cholesterol
+        cholesterol,
+        remarks
     )
     VALUES
-    (?, ?, ?, ?, ?, ?)
+    (?, ?, ?, ?, ?, ?, ?)
     """,
     (
         name,
@@ -54,7 +58,8 @@ def add_patient(
         email,
         glucose,
         haemoglobin,
-        cholesterol
+        cholesterol,
+        remarks
     ))
 
     conn.commit()

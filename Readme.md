@@ -14,74 +14,45 @@ A Flask-based healthcare application for managing patient records and analyzing 
 
 ---
 
-## ✨ Features Implemented
+## Features Implemented
 
-### ✅ Home Page
+### Patient Management
 
-* Healthcare-themed landing page
-* Responsive Bootstrap UI
+* Add Patient Records
+* View Patient Records
+* SQLite Database Storage
+* Persistent Data Management
 
-### ✅ Patient Registration
+### Validation
 
-* Add patient details
-* Store patient records in SQLite database
-* Persistent data storage
+* Email Validation
+* Future Date Restriction for Date of Birth
+* Numeric Validation for Blood Test Values
 
-### ✅ Form Validation
+### AI Integration
 
-* Email format validation
-* Prevent future Date of Birth entries
-* Numeric validation for blood test values
+* Gemini API Integration
+* Automatic Health Risk Prediction
+* AI Generated Remarks Stored in Database
 
-### ✅ Database Integration
+### User Interface
 
-* SQLite database setup
-* Patient data storage and management
+* Bootstrap 5 Healthcare Theme
+* Responsive Design
+* Professional Landing Page
+* Patient Records Dashboard
 
----
-
-## 📊 Project Progress
-
-| Feature                 | Status         |
-| ----------------------- | -------------- |
-| Project Setup           | ✅ Completed    |
-| Flask Application       | ✅ Completed    |
-| SQLite Database         | ✅ Completed    |
-| Healthcare Landing Page | ✅ Completed    |
-| Patient Registration    | ✅ Completed    |
-| Form Validation         | ✅ Completed    |
-| Patient Data Storage    | ✅ Completed    |
-| Read Patient Records    | 🚧 In Progress |
-| Update Patient Records  | ⏳ Pending      |
-| Delete Patient Records  | ⏳ Pending      |
-| AI Health Prediction    | ⏳ Pending      |
-
----
-
-## 🎯 Upcoming Features
-
-* 🤖 AI-generated health risk prediction
-* 👀 View patient records
-* ✏️ Update patient information
-* 🗑️ Delete patient records
-* 📈 Enhanced dashboard
-* 🔐 User authentication
-
----
-
-## 📌 Current Status
-
-**CRUD Progress**
+## CRUD Status
 
 * Create ✅
-* Read 🚧
+* Read ✅
 * Update ⏳
 * Delete ⏳
 
-**AI Integration**
+## AI Prediction Examples
 
-* Health Prediction Module ⏳
-
----
-
-### 👨‍💻 Developed Using Flask + SQLite + Bootstrap
+* Normal
+* High Diabetes Risk
+* Possible Anaemia
+* Elevated Cholesterol
+* Multiple Risk Factors Detected
