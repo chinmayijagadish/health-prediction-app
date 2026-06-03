@@ -1,5 +1,8 @@
 from flask import Flask, render_template, request
-from database import add_patient
+from database import (
+    add_patient,
+    get_all_patients
+)
 import re
 from datetime import datetime
 
@@ -65,6 +68,16 @@ def add():
 
     return render_template(
         "add_patient.html"
+    )
+
+@app.route("/patients")
+def patients():
+
+    all_patients = get_all_patients()
+
+    return render_template(
+        "patients.html",
+        patients=all_patients
     )
 
 

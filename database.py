@@ -60,6 +60,23 @@ def add_patient(
     conn.commit()
     conn.close()
 
+def get_all_patients():
+
+    conn = sqlite3.connect(
+        "database/patients.db"
+    )
+
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT * FROM patients"
+    )
+
+    patients = cursor.fetchall()
+
+    conn.close()
+
+    return patients
 
 if __name__ == "__main__":
     create_database()

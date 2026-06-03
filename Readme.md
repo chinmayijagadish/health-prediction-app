@@ -1,60 +1,87 @@
-# Health Prediction App
+# 🏥 Health Prediction Application
 
-A healthcare prediction application developed using Flask, SQLite, and Gemini AI.
+A Flask-based healthcare application for managing patient records and analyzing blood test information.
 
-## Project Goal
+---
 
-The application stores patient blood test records and generates AI-powered health remarks.
+## 🚀 Technologies Used
 
-## Tech Stack
+* Python
+* Flask
+* SQLite
+* HTML5
+* Bootstrap 5
 
-- Python
-- Flask
-- SQLite
-- Bootstrap
-- Gemini API
+---
 
-## Current Progress
+## ✨ Features Implemented
 
-## Current Progress
+### ✅ Home Page
 
-### Phase 1
-- Project Setup Completed
-- SQLite Database Created
-- Patient Schema Created
+* Healthcare-themed landing page
+* Responsive Bootstrap UI
 
-### Database Fields
+### ✅ Patient Registration
 
-- ID
-- Name
-- Date of Birth
-- Email
-- Glucose
-- Haemoglobin
-- Cholesterol
-- Remarks
+* Add patient details
+* Store patient records in SQLite database
+* Persistent data storage
 
-### Phase 2
+### ✅ Form Validation
 
-- Flask Application Created
-- Home Route Added
-- HTML Template Added
-- Application Running Successfully
+* Email format validation
+* Prevent future Date of Birth entries
+* Numeric validation for blood test values
 
-### Phase 3
+### ✅ Database Integration
 
-- Add Patient Form Created
-- Flask Form Handling Implemented
-- SQLite Insert Function Added
-- Patient Records Successfully Stored
+* SQLite database setup
+* Patient data storage and management
 
-## Features Completed
+---
 
-### Patient Registration
+## 📊 Project Progress
 
-- Add Patient Form
-- SQLite Database Integration
-- Data Persistence
-- Email Validation
-- Date of Birth Validation
-- Numeric Blood Value Validation
+| Feature                 | Status         |
+| ----------------------- | -------------- |
+| Project Setup           | ✅ Completed    |
+| Flask Application       | ✅ Completed    |
+| SQLite Database         | ✅ Completed    |
+| Healthcare Landing Page | ✅ Completed    |
+| Patient Registration    | ✅ Completed    |
+| Form Validation         | ✅ Completed    |
+| Patient Data Storage    | ✅ Completed    |
+| Read Patient Records    | 🚧 In Progress |
+| Update Patient Records  | ⏳ Pending      |
+| Delete Patient Records  | ⏳ Pending      |
+| AI Health Prediction    | ⏳ Pending      |
+
+---
+
+## 🎯 Upcoming Features
+
+* 🤖 AI-generated health risk prediction
+* 👀 View patient records
+* ✏️ Update patient information
+* 🗑️ Delete patient records
+* 📈 Enhanced dashboard
+* 🔐 User authentication
+
+---
+
+## 📌 Current Status
+
+**CRUD Progress**
+
+* Create ✅
+* Read 🚧
+* Update ⏳
+* Delete ⏳
+
+**AI Integration**
+
+* Health Prediction Module ⏳
+
+---
+
+### 👨‍💻 Developed Using Flask + SQLite + Bootstrap
